@@ -3,25 +3,6 @@ function cepBuscar(){
 let cepnum = document.getElementById("cep").value;
 
 
-const cepPro = new Promise((resolve, reject) => {
- 
-  if (cepnum.length == 8) {
-     
-          resolve();
-  } else if(cepnum == ""){
-    reject ("O campo está vazio, digite um CEP válido.");
-    alert("O campo está vazio, digite um CEP válido.");
-  }
-  else if (cepnum.length>8 || cepnum.length<8){
-    reject ("CEP inválido.");
-    alert("CEP inválido.");
-
-  }
-})
-
-//Resolve
-cepPro.then((resolve)=>{
-
   let cepB = fetch("https://viacep.com.br/ws/"+cepnum+"/json/")
 .then(response => {
   return response.json();
@@ -33,13 +14,9 @@ cepPro.then((resolve)=>{
   <p>UF: ${cep.uf}</p>`;
 });
 
-//Reject
-}).catch(
-(err)=>{console.error(err)}
-);
-};
 
 
+}
 
 
 
