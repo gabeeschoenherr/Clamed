@@ -1,0 +1,113 @@
+@font-face {
+    font-family: cream_cake;
+    src: url(font/cream_cake.OTF);}
+
+body {
+    background-image: url("img/pattern.jpg");
+    color: rgb(240, 104, 115);
+    font: arial;
+}
+h1{
+    font-family: cream_cake;
+    font-size: 50px;
+}
+p{
+    font-weight: bold;
+}
+
+img{
+    width: 400px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.divprincipal{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    vertical-align: center;
+    margin-top: 40px;
+}
+.div2{
+display: inline-block;
+background-color: rgb(240, 217, 168, .8);
+padding: 40px;
+text-align: left;
+border-radius: 25px;
+vertical-align: top;
+margin-right: 30px;
+}
+
+#descrit{
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: justify;
+}
+
+#nomen{
+    font-size: 20px;
+}
+
+#nome{
+    border-radius: 25px;
+    background-color: pink;
+    border: none;
+    height: 20px;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+#imagem{
+    border-radius: 25px;
+    background-color: pink;
+    border: none;
+    height: 20px;
+    outline: none;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+#descri{
+    border-radius: 25px;
+    background-color: pink;
+    border: none;
+    height: 100px;
+    width: 300px;
+    outline: none;
+    padding: 10px;
+    padding-bottom: 100px;
+    float: left; 
+    clear: left; 
+    margin-top: 10px;
+   
+}
+
+#bt{
+    display: inline;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    color: rgb(235, 135, 152);
+    width: 300px;
+}
+#bt:hover {
+    background-color: #ca3f52
+}
+#bt:active {
+    background-color: #ca3f52;
+    box-shadow: 0 5px rgb(194, 143, 77);
+    transform: translateY(4px);
+  }
+.bt{
+    margin-top: 20px;
+    text-align: center;
+}
+.div1{
+    background-color:pink;
+    width: 500px;
+    height: 700px;
+    display:inline-block;
+    border-radius: 25px;
+}

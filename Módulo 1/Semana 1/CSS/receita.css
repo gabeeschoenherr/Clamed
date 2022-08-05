@@ -1,0 +1,46 @@
+@font-face {
+    font-family: cream_cake;
+    src: url(/font/cream_cake.OTF);
+}
+body{
+    text-align: center;
+    background-image: url("/img/bg.jpeg");
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    font-size: 72px;
+    color:palevioletred;
+    background-color: aquamarine;
+    font-family: cream_cake;
+}
+h2{
+    font-size: 24px;
+    color: rgb(165, 125, 16);
+}
+
+.img {
+    width: 50%;
+
+}
+
+.cont{
+    text-align: center;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: lightskyblue;
+    padding: 20px;
+}
+
+ul{
+    text-align: justify;
+}
+
+ol{
+    text-align: justify;
+}
+
+li{
+    margin-bottom: 10px;
+}

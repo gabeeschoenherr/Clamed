@@ -1,0 +1,74 @@
+@font-face {
+    font-family: cream_cake;
+    src: url(font/cream_cake.OTF);
+}
+body{
+    background-image: url("img/pattern.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+.corpo{
+    width: 500px;
+    height: 750px;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    opacity : 0.8;
+   margin-top: 60px;;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 50px;
+}
+.logo{
+    height: 300px;
+    text-align: center;
+    margin-top: -30px;;
+    
+}
+    
+h1{
+    font-family: cream_cake;
+    font-size: 60px;
+    color: rgb(62, 179, 140);
+   
+}
+h2{
+    margin-top: -30px;
+    color: palevioletred;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-top: 20px;
+}
+.link {
+    text-decoration-line: none;
+    transition: color 1s linear 0s;
+    -webkit-transition: font-size .5s ease;
+    -moz-transition: font-size .5s ease;
+    -o-transition: font-size .5s ease;
+    transition: font-size .5s ease;
+    font-size: 15px;
+    cursor:pointer;
+    font-weight: 700;
+  }
+  .link:hover {
+    color: palevioletred;
+    transition: color 1s linear 0s;
+    font-size: 17px;
+    
+  }
+
+  .texto{
+    margin-top: -150px;
+  }
