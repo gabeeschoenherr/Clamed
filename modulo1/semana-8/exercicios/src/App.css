@@ -1,0 +1,22 @@
+body{
+    background-color: rgb(44, 36, 54);
+}
+.card{
+    background-color: rgb(253, 253, 253, .8);
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.exe8lista{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(44, 36, 54);
+    margin-top: 20px;
+}

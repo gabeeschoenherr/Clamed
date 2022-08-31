@@ -1,0 +1,15 @@
+.cont{
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: rgb(44, 36, 54);
+    margin-top: 20px;
+}
+
+.cont span{
+    color: antiquewhite;
+}
+
+

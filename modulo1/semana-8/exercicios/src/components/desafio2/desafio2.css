@@ -1,0 +1,73 @@
+.desafio2divcont{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+
+
+img{
+    width: 160px;
+}
+.desafio2imagem{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desafio2id{
+    font-weight: bold;
+    background-color: rgb(255, 255, 255, .5);
+}
+.desafio2nome{
+    font-weight: bold;
+}
+
+/*tipo*/
+
+.desafio2eletrico{
+ background-color: rgb(255, 210, 87);
+ width: 200px;
+ text-align: center;
+ margin:8px;
+ border-radius: 20px;
+}
+
+.desafio2fada{
+ background-color: rgb(243, 144, 173);
+ width: 200px;
+ text-align: center;
+ margin:8px;
+ border-radius: 20px;
+}
+
+.desafio2agua{
+ background-color: rgb(116, 164, 236);
+ width: 200px;
+ text-align: center;
+ margin:8px;
+ border-radius: 20px;
+}
+.desafio2fogo{
+background-color: rgb(230, 64, 64);
+width: 200px;
+text-align: center;
+margin:8px;
+border-radius: 20px;
+}
+
+.desafio2gelo{
+background-color: rgb(100, 223, 223);
+width: 200px;
+text-align: center;
+margin:8px;
+border-radius: 20px;
+}
+
+.desafio2ale{
+    background-color: white;
+    width: 200px;
+    text-align: center;
+    margin:8px;
+    border-radius: 20px;
+}
