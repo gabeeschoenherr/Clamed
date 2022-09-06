@@ -1,0 +1,17 @@
+.exe1cont{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.exe1continterno{
+    margin-left: 10px;
+}
+
+
+img{
+    width: 160px;
+    border-radius: 20px;
+}

@@ -1,0 +1,33 @@
+.exe7cont{
+    background-color: #f4f4f4;
+	flex-direction: column;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+}
+
+.progress {
+	background-color: #c0bbbb;
+	border-radius: 20px;
+	position: relative;
+	margin: 15px 0;
+	height: 30px;
+	width: 300px;
+}
+
+.progress-done {
+	position: absolute;
+	height: 30px;
+	width: 150px;
+	background: linear-gradient(to left, #4ccec3, #83c230);
+	box-shadow: 0 3px 3px -5px #8ad14f, 0 2px 5px #8ad14f;
+	border-radius: 20px;
+	transition: all 0.4s ease;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}

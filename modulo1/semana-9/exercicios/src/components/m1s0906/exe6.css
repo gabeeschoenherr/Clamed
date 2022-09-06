@@ -1,0 +1,25 @@
+.exe6divcontinterno{
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.exe6divcontinterno img{
+    width: 30px;
+}
+
+.exe6primeiralinha{
+    display: flex;
+    vertical-align: middle;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.exe6nomemensagem{
+    margin-left: 6px;
+}
+
+.exe6form{
+    margin-bottom: 20px;
+}
